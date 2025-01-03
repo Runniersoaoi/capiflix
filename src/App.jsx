@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Navbar from "./components/Navbar";
@@ -17,7 +17,7 @@ function App() {
             <Navbar />
             <main className="flex-grow">
               <Routes>
-                <Route path="/capiflix" element={<Home />} />
+                <Route path="/capiflix/" element={<Home />} />
                 <Route path="/create" element={<CreateElement />} />
               </Routes>
             </main>
