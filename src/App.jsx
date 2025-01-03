@@ -17,7 +17,7 @@ function App() {
             <Navbar />
             <main className="flex-grow">
               <Routes>
-                <Route path="/capiflix" element={<Home />} />
+                <Route path="/capiflix/" element={<Home />} />
                 <Route path="/create" element={<CreateElement />} />
               </Routes>
             </main>
